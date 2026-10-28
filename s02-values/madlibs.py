@@ -1,4 +1,4 @@
-# 5편 · 미니 프로젝트 1: Madlibs(빈칸 채우기 이야기)
+# 미니 프로젝트 1: Madlibs(빈칸 채우기 이야기)
 adjective = input("형용사 하나: ")
 place = input("장소 하나: ")
 food = input("음식 하나: ")
