@@ -5,6 +5,8 @@
 | 폴더 | 내용 |
 |---|---|
 | `s02-values/` | 값과 변수(`values.py`), 미니 프로젝트 매드립스·단위 변환기 |
+| `s03-collections/` | 리스트(`lists.py`), 딕셔너리·튜플·집합(`dicts.py`) |
+| `s04-flow/` | 조건문·반복문, 미니 프로젝트 숫자 맞히기(`guess.py`)·가위바위보(`rps.py`) |
 | `exercises/` | 섹션별 연습문제 |
 | `solutions/` | 풀이 |
 
