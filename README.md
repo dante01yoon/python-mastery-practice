@@ -6,7 +6,8 @@
 |---|---|
 | `s02-values/` | 값과 변수(`values.py`), 미니 프로젝트 매드립스·단위 변환기 |
 | `s03-collections/` | 리스트(`lists.py`), 딕셔너리·튜플·집합(`dicts.py`) |
-| `s04-flow/` | 조건문·반복문, 미니 프로젝트 숫자 맞히기(`guess.py`)·가위바위보(`rps.py`) |
+| `s04-flow/` | 조건문·반복문, 미니 프로젝트 숫자 맞히기(`guess.py`)·가위바위보(`rps.py`)·퀴즈(`quiz.py`)·쇼핑 카트(`cart.py`) |
+| `s05-functions/` | 함수(`functions.py`), 인자·타입 힌트(`args.py`), 스코프·람다·재귀(`scope.py`), 미니 프로젝트 행맨(`hangman.py`) |
 | `exercises/` | 섹션별 연습문제 |
 | `solutions/` | 풀이 |
 
