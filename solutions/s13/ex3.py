@@ -11,7 +11,7 @@ def count_primes(n: int) -> int:
 
 
 if __name__ == "__main__":
-    jobs = [30_000] * 4
+    jobs = [200_000] * 4
 
     start = time.perf_counter()
     print([count_primes(n) for n in jobs])
