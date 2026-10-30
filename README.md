@@ -14,6 +14,7 @@
 | `s09-classes/` | 클래스(`cards.py`), 특수 메서드·덱(`deck.py`), 상속(`players.py`), dataclass·property(`hand.py`), 미니 프로젝트 블랙잭(`blackjack.py`) |
 | `s10-pythonic/` | 컴프리헨션(`comprehension.py`), 이터레이터·제너레이터(`generators.py`), 일급 함수·클로저(`functions_first.py`), 데코레이터·컨텍스트 매니저(`decorators.py`), 미니 프로젝트 시간제한 수학 챌린지(`math_challenge.py`) |
 | `s11-quality/` | 타입 힌트 심화(`typehints.py`), TypedDict·Literal(`library.py`), mypy·ruff(`pyproject.toml`의 dev 그룹·검사 규칙), 정리 전 코드(`messy.py`), 미니 프로젝트 블랙잭 품질 검사(`blackjack.py`) |
+| `s12-testing/` | pytest 첫걸음·테스트 먼저(`calc.py`·`test_calc.py`), parametrize, 픽스처·`tmp_path`(`notes.py`·`test_notes.py`), 미니 프로젝트 블랙잭 테스트(`blackjack.py`·`test_blackjack.py`) |
 | `exercises/` | 섹션별 연습문제 |
 | `solutions/` | 풀이 |
 
