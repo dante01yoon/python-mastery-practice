@@ -7,5 +7,7 @@ dependencies = [
     "beautifulsoup4>=4.15.0",
     "httpx>=0.28.1",
     "openpyxl>=3.1.5",
+    "pillow>=13.0.0",
+    "pypdf>=6.21.4",
     "rich>=15.0.0",
 ]
