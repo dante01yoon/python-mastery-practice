@@ -17,6 +17,7 @@
 | `s12-testing/` | pytest 첫걸음·테스트 먼저(`calc.py`·`test_calc.py`), parametrize, 픽스처·`tmp_path`(`notes.py`·`test_notes.py`), 미니 프로젝트 블랙잭 테스트(`blackjack.py`·`test_blackjack.py`) |
 | `s13-concurrency/` | 기다리는 일(`waiting.py`), 스레드(`threads.py`), 경쟁 상태·Lock(`race.py`), GIL·프로세스(`cpu.py`), 코루틴(`coro.py`), asyncio 도구(`tasks.py`), 미니 프로젝트 세 가지로 재기(`compare.py`) |
 | `s14-automation/` | 정규표현식(`regex.py`), 파일 정리·백업(`organize.py` + 정리 전 `downloads/`), 엑셀(`sales.py`), HTTP·날씨 API(`weather.py`), 웹 페이지 읽기(`books.py`), 미니 프로젝트 날씨·환율 대시보드(`dashboard.py`) |
+| `s15-capstone/` | 캡스톤 서울 날씨 웹앱: 데이터(`weather.py`), 주소·화면(`main.py`, `templates/page.html`), 테스트(`test_weather.py`) — `uv run fastapi dev main.py` |
 | `exercises/` | 섹션별 연습문제 |
 | `solutions/` | 풀이 |
 

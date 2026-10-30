@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>오늘 {{ city }} 날씨</title>
+<style>
+  body { font-family: sans-serif; background: #0f172a; color: #e2e8f0; padding: 32px; }
+  .chart { display: flex; align-items: flex-end; gap: 6px; height: 260px; }
+  .bar { width: 28px; background: #38bdf8; border-radius: 6px 6px 0 0; position: relative; }
+  .bar.rain { background: #a78bfa; }
+  .bar span { position: absolute; bottom: -22px; width: 100%; text-align: center; font-size: 12px; }
+</style>
+</head>
+<body>
+  <h1>오늘 {{ city }} 날씨</h1>
+  <p>가장 따뜻한 때 {{ warmest.time }} · {{ warmest.temp }}°C</p>
+  <p>가장 추운 때 {{ coldest.time }} · {{ coldest.temp }}°C</p>
+  <div class="chart">
+    {% for h in hours %}
+    <div class="bar {{ 'rain' if h.rain >= 50 }}" style="height: {{ [h.temp * 10, 8] | max | int }}px"
+         title="{{ h.time }} {{ h.temp }}°C 비 {{ h.rain }}%"><span>{{ h.time[:2] }}</span></div>
+    {% endfor %}
+  </div>
+</body>
+</html>
