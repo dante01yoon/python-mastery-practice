@@ -11,6 +11,7 @@
 | `s06-exceptions/` | 오류 추적 읽기(`errors.py`), try/except/else/finally(`safe_input.py`), raise·사용자 예외(`raise_demo.py`), 디버거 실습(`debug_me.py` — 영상은 `total = price` 실수로 시작해 `+=`로 고친다, 디버거 설정은 `.vscode/launch.json`), 미니 프로젝트 은행(`bank.py`) |
 | `s07-files/` | 텍스트 파일(`notes.py`), pathlib(`paths.py`), CSV 가계부(`budget.py`·`spending.csv`), JSON(`settings.py`), 미니 프로젝트 비밀번호 관리자(`vault.py` — 연습용, 실제 비밀번호 금지) |
 | `s08-modules/` | 모듈(`textutils.py`·`main.py`), 표준 라이브러리(`stdlib_tour.py`), 패키지(`toolbox/`·`use_toolbox.py`), 미니 프로젝트 카이사르 암호(`cipher/`·`cipher_app.py`, `uv add rich`) — 이 폴더는 uv 프로젝트라 `cd s08-modules && uv run cipher_app.py` |
+| `s09-classes/` | 클래스(`cards.py`), 특수 메서드·덱(`deck.py`), 상속(`players.py`), dataclass·property(`hand.py`), 미니 프로젝트 블랙잭(`blackjack.py`) |
 | `exercises/` | 섹션별 연습문제 |
 | `solutions/` | 풀이 |
 
