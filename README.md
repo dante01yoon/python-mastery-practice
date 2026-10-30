@@ -13,6 +13,7 @@
 | `s08-modules/` | 모듈(`textutils.py`·`main.py`), 표준 라이브러리(`stdlib_tour.py`), 패키지(`toolbox/`·`use_toolbox.py`), 미니 프로젝트 카이사르 암호(`cipher/`·`cipher_app.py`, `uv add rich`) — 이 폴더는 uv 프로젝트라 `cd s08-modules && uv run cipher_app.py` |
 | `s09-classes/` | 클래스(`cards.py`), 특수 메서드·덱(`deck.py`), 상속(`players.py`), dataclass·property(`hand.py`), 미니 프로젝트 블랙잭(`blackjack.py`) |
 | `s10-pythonic/` | 컴프리헨션(`comprehension.py`), 이터레이터·제너레이터(`generators.py`), 일급 함수·클로저(`functions_first.py`), 데코레이터·컨텍스트 매니저(`decorators.py`), 미니 프로젝트 시간제한 수학 챌린지(`math_challenge.py`) |
+| `s11-quality/` | 타입 힌트 심화(`typehints.py`), TypedDict·Literal(`library.py`), mypy·ruff(`pyproject.toml`의 dev 그룹·검사 규칙), 정리 전 코드(`messy.py`), 미니 프로젝트 블랙잭 품질 검사(`blackjack.py`) |
 | `exercises/` | 섹션별 연습문제 |
 | `solutions/` | 풀이 |
 
